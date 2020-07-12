@@ -1,12 +1,7 @@
 import React, { Component } from "react";
-import { Route, Link } from "react-router-dom";
-import Particles from "react-particles-js";
-import "./Homepage.css";
-import Welcome from "./Welcome/Welcome";
-import About from "./About/About";
-import Contact from "./Contact/Contact";
 import Header from "../../Components/Header/Header";
 import ParticleGraphic from "../../Components/ParticleGraphic/ParticleGraphic";
+import "./Homepage.css";
 
 export default class Homepage extends Component {
   render() {
@@ -16,12 +11,8 @@ export default class Homepage extends Component {
           <h1>Shayne Sebro Software Engineer</h1>
         </div>
         <div className="middle">
-          <div className="nav">
-            <div className="logo">
-              <p>logo</p>
-            </div>
-            <Header />
-          </div>
+          <Header />
+
           <div className="content">
             <div className="constellation">
               <span className="circle"></span>
