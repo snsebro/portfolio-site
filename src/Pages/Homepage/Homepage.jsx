@@ -6,7 +6,7 @@ import "./Homepage.css";
 export default class Homepage extends Component {
   render() {
     return (
-      <div className="App">
+      <div className="container">
         <div className="left">
           <h1>Shayne Sebro Software Engineer</h1>
         </div>

@@ -5,7 +5,7 @@ import "./About.css";
 
 export default function About() {
   return (
-    <div className="App">
+    <div className="container">
       <div className="left">
         <h1>Shayne Sebro Software Engineer</h1>
       </div>
@@ -18,7 +18,7 @@ export default function About() {
             <ParticleGraphic />
           </div>
           <div className="message">
-            <h1>About Me</h1>
+            <h1>Welcome ...About Me</h1>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               Suspendisse blandit sapien id orci lobortis, in aliquam dolor

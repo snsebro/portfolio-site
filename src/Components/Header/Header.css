@@ -1,0 +1,32 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 3px solid #171717;
+  padding: 20px 70px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+}
+
+li {
+  margin: 0px 20px;
+}
+
+li :hover {
+  color: white;
+  cursor: pointer;
+  scale: 1.1;
+}
+
+.nav-links {
+  list-style: none;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none !important;
+  color: inherit;
+}

@@ -1,0 +1,9 @@
+.graphic {
+  position: relative;
+  margin: 0 auto;
+  width: 85%;
+  height: 30%;
+  /* border: 2px solid white; */
+  z-index: 2;
+  top: -400px;
+}

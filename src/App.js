@@ -10,8 +10,8 @@ function App() {
   return (
     <>
       <Route exact path="/" component={Homepage} />
-      <Route exact path="/about" component={About} />
-      <Route  exact path="/contact" component={Contact} />
+      <Route path="/about" component={About} />
+      <Route path="/contact" component={Contact} />
       <Route exact path="/projects" component={ProjectPage}/>
     </>
   );
