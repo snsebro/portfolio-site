@@ -1,0 +1,64 @@
+.main {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.shayne{
+  height: 100vh;
+  width: 10%;
+}
+
+.projects-container {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+
+.space {
+  width: 10%;
+}
+
+.project-header {
+  height: 10%;
+  display: flex;
+  border-bottom: 3px solid #171717;
+}
+
+.header-left, .header-right {
+  background-color: #262626;
+  width: 20%;
+  height: 100%;
+}
+
+.header-left{
+  border-radius: 12px 0 0 0;
+}
+
+.header-right {
+  border-radius: 0 12px 0 0;
+}
+
+.header-mid {
+  height: 100%;
+  width: 60%;
+  background-color: #383737;
+}
+
+.projects {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.project-content {
+  height: 100%;
+  width: 60%;
+  background-color: #383737;
+}
+
+.project-name, .project-details {
+ background-color: #262626;
+ width: 20%;
+}
+
