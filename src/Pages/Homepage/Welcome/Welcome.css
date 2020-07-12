@@ -1,0 +1,5 @@
+.message {
+  width: 40%;
+  margin: 125px 50px 0px 50px;
+  text-overflow: ellipsis;
+}
