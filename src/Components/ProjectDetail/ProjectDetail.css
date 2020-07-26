@@ -1,0 +1,43 @@
+.project-detail-container {
+  height: calc(100vh - 140px);
+  width: 95%;
+  margin: 0 auto;
+  overflow-x: hidden;
+  overflow-y: scroll;
+
+}
+
+.project-detail-container::-webkit-scrollbar {
+  border: none;
+  background-color: #262626;
+  border-radius: 20px;
+  width: 8px;
+}
+
+.project-detail-container::-webkit-scrollbar-thumb {
+  border: none;
+  background-color:#121212;
+  border-radius: 20px;
+  margin-right: 10px;
+}
+
+.section-1 {
+  width: 80%;
+  margin: 40px auto;
+  height: 90%;
+  border: 1px solid white;
+}
+
+.section-2 {
+  width: 80%;
+  margin: 40px auto;
+  height: 90%;
+  border: 1px solid white;
+}
+
+.section-3 {
+  width: 80%;
+  margin: 40px auto;
+  height: 90%;
+  border: 1px solid white;
+}

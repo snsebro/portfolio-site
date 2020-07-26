@@ -53,6 +53,27 @@ export default function ParticleGraphic() {
                         remove: {
                           particles_nb: 2,
                         },
+                        move: {
+                          enable: true,
+                          speed: 1,
+                          direction: "none",
+                          random: true,
+                          straight: false,
+                          out_mode: "out",
+                          bounce: false,
+                          attract: {
+                            enable: false,
+                            rotateX: 600,
+                            rotateY: 1200
+                          }
+                        },
+                        line_linked: {
+                          enable: true,
+                          distance: 250,
+                          color: "fff",
+                          opacity: 0.4,
+                          width: 1
+                        },
                       },
                     },
                   }}

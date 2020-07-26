@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Prep Chef",
+    "stack": ["HTML", "Javascript", "CSS","React", "Axios"],
+    "screenshot": "https://i.ibb.co/QCm54pG/Screen-Shot-2020-07-24-at-11-01-01-AM.png",
+    "deployed_on": "Netlify",
+    "deployed_link": "https://prepchef.netlify.app/",
+    "backend": "",
+    "github": "https://github.com/snsebro/prepnchef"
+  },
+
+  {
+    "name": "Aeternam Beauty",
+    "stack": ["HTML", "Javascript", "CSS", "React", "Ruby", "Axios"],
+    "screenshot": "https://i.ibb.co/mqSS4xL/Screen-Shot-2020-07-24-at-11-00-33-AM.png",
+    "deployed_on": "Surge",
+    "deployed_link": "http://aeternam.surge.sh/",
+    "backend": "Heroku",
+    "github": "https://github.com/snsebro/Aeternam-Beauty"
+
+  }
+]

@@ -1,0 +1,51 @@
+.tech {
+  width: 60px;
+  height: 60px;
+  background-color: #383737;
+  border-radius: 100px;
+  margin: 10px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.shayne-h1 {
+  writing-mode: vertical-rl;
+  transform: rotate(-180deg);
+  height: 230px;
+  font-size: 25px;
+  line-height: 30px;
+  color: white;
+  font-family: 'Roboto Slab', serif;
+  margin-top: 20px;
+}
+
+.react-icon {
+  width: 45px;
+  height: auto;
+}
+
+.css-icon {
+  width: 45px;
+  height: auto;
+}
+
+.html-icon {
+  width: 45px;
+  height: auto;
+}
+
+.ruby-icon {
+  width: 45px;
+  height: auto;
+}
+
+.rails-icon {
+  width: 45px;
+  height: auto;
+}
+
+.postgres-icon {
+  width: 40px;
+  height: auto;
+}

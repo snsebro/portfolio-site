@@ -1,0 +1,24 @@
+.deploy-info{
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 0 auto;
+  line-height: 15px;
+  color: white;
+}
+
+.deploy-info h1{
+  font-size: 14px;
+  margin: 0;
+}
+
+.deploy-info p{
+  margin: 0;
+  overflow-wrap: normal;
+}
+
+.link-section {
+  margin: 20px 0;
+  overflow-wrap: normal;
+}

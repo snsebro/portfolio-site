@@ -1,0 +1,22 @@
+.project-specs {
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 0 auto;
+  line-height: 15px;
+  color: white;
+}
+
+.project-specs h1 {
+  font-size: 14px;
+  margin: 0;
+}
+
+.project-specs p {
+  margin: 0;
+}
+
+.spec-section {
+  margin: 20px 0;
+}

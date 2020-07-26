@@ -1,0 +1,68 @@
+.prep-chef-1 {
+  width: 90%;
+  margin: 20px auto 0px auto;
+  /* height: 90%; */
+  border: 1px solid white;
+  display: grid;
+  grid-template-rows: 0.5fr 0.5fr;
+  grid-template-columns: 2fr 1fr;
+  grid-template-areas: 
+  "search text"
+  "recipe-detail text";
+  grid-row-gap: 10px;
+}
+
+.prep-chef-2 {
+  width: 90%;
+  margin: 30px auto;
+  /* height: 90%; */
+  border: 1px solid white;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.5fr 0.6fr 1.5fr;
+  grid-template-areas: 
+  "day-select"
+  "diet"
+  "summary";
+  grid-row-gap: 10px;
+}
+
+.prep-chef-1 img {
+  width: 100%;
+  height: auto;
+}
+
+.prep-chef-2 img {
+  width: 100%;
+  height: auto;
+}
+
+.prep-chef-text {
+  grid-area: text;
+  margin: 0px;
+  padding: 10px;
+}
+
+.prep-chef-text p {
+  margin: 0;
+}
+
+.search {
+  grid-area: search;
+}
+
+.recipe-detail {
+  grid-area: recipe-detail;
+}
+
+.day-select {
+  grid-area: day-select;
+}
+
+.diet {
+  grid-area: diet;
+}
+
+.summary {
+  grid-area: summary;
+}
