@@ -6,14 +6,17 @@ import PrepChefDetails from "../PrepChefDetails/PrepChefDetails";
 
 function ProjectDetail() {
   return (
-    <div className="project-detail-container">
-      <Route path="/projects/Aeternam Beauty">
-        <AeternamDetails />
-      </Route>
-      <Route path="/projects/Prep Chef">
-        <PrepChefDetails />
-      </Route>
-    </div>
+    <>
+      <div className="project-detail-container">
+        <Route path="/projects/Aeternam Beauty">
+          <AeternamDetails />
+        </Route>
+        <Route path="/projects/Prep Chef">
+          <PrepChefDetails />
+        </Route>
+      </div>
+      <div className="scroll">Scroll for more info</div>
+    </>
   );
 }
 

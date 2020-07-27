@@ -29,8 +29,9 @@ export default function Contact() {
               <label>
                 <textarea placeholder="Message Me" required></textarea>
               </label>
-              <button type="submit">Send Message</button>
+              <button className="contact-button" type="submit">Send Message</button>
             </form>
+            <p className="email">*Alternatively email me at shaynesebro@gmail.com</p>
           </div>
         </div>
       </div>

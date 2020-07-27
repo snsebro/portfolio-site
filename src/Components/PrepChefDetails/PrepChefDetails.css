@@ -1,8 +1,6 @@
 .prep-chef-1 {
   width: 90%;
   margin: 20px auto 0px auto;
-  /* height: 90%; */
-  border: 1px solid white;
   display: grid;
   grid-template-rows: 0.5fr 0.5fr;
   grid-template-columns: 2fr 1fr;
@@ -15,8 +13,6 @@
 .prep-chef-2 {
   width: 90%;
   margin: 30px auto;
-  /* height: 90%; */
-  border: 1px solid white;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 0.5fr 0.6fr 1.5fr;
@@ -47,6 +43,7 @@
   margin: 0;
   color: white;
   line-height: 18px;
+  margin-bottom: 10px;
 }
 
 .search {
@@ -67,4 +64,46 @@
 
 .summary {
   grid-area: summary;
+}
+
+@media screen and (max-width: 750px) {
+  /* .prep-chef-1 {
+    margin: 10px auto 0px auto;
+    grid-template-rows: 0.3fr 0.5fr 0.5fr;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+    "search"
+    "text"
+    "recipe-detail";
+    grid-row-gap: 5px;
+  } */
+
+  .prep-chef-text p {
+    font-size: 8px;
+    line-height: 12px;
+    margin-bottom: 10px;
+  }
+
+  .prep-chef-text {
+    padding: 0px 10px;
+  }
+  
+  .prep-chef-2 {
+    margin: 10px auto;
+    grid-row-gap: 5px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .prep-chef-1 {
+    margin: 10px auto 0px auto;
+    grid-template-rows: 0.3fr 0.5fr 0.5fr;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+    "search"
+    "text"
+    "recipe-detail";
+    grid-row-gap: 5px;
+  }
+
 }

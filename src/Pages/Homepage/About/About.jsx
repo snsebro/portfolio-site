@@ -21,31 +21,34 @@ export default function About() {
             <ParticleGraphic />
           </div>
           <div className="message">
-            <h1>Welcome ...About Me</h1>
+            <h1>About Me</h1>
             <p>
-              I’m a creative, collaborative, and thoughtful web developer with a
-              diverse range of experiences including financial planning, product
-              development, digital marketing, and retail management. My past
-              experiences have taught me to combine strong aesthetic vision with
-              the practical application of technology stacks to produce
-              applications that are scalable, efficient, and visually
-              stimulating. As a lifetime learner I look forward broadening my
-              skill sets with each project I take on and always remain open to
-              new challenges.
+              As a software engineer with a collaborative nature, analytical
+              perspective, and strong aesthetic vision I find it important to
+              remain adaptable to learning and implementing multiple programming
+              frameworks in my own practice and enjoy taking on new projects
+              that allow me to do so.
             </p>
+            <p>Feel free to visit the links below to learn more, or check out some of my projects <a href="/projects"><span className="here">here</span></a>!</p>
             <div className="profile-icons">
-              <a href="https://github.com/snsebro" target="_blank">
+              <a
+                href="https://github.com/snsebro"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <GithubIcon className="profile-icon" />
               </a>
               <a
                 href="https://www.linkedin.com/in/shaynesebro/"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <LinkedinIcon className="profile-icon" />
               </a>
               <a
                 href="https://drive.google.com/file/d/1KPecR7iC6xQQQXaInQIQ7lyvAjDZ8kKx/view?usp=sharing"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <ResumeIcon className="profile-icon" />
               </a>

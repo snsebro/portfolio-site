@@ -8,17 +8,17 @@
 }
 
 .project-detail-container::-webkit-scrollbar {
-  border: none;
-  background-color: #262626;
-  border-radius: 20px;
-  width: 8px;
+  border: none !important;
+  background-color: #262626 !important;
+  border-radius: 20px !important;
+  width: 8px !important;
 }
 
 .project-detail-container::-webkit-scrollbar-thumb {
-  border: none;
-  background-color:#121212;
-  border-radius: 20px;
-  margin-right: 10px;
+  border: none !important;
+  background-color:#121212 !important;
+  border-radius: 20px !important;
+  margin-right: 10px !important;
 }
 
 .section-1 {
@@ -40,4 +40,19 @@
   margin: 40px auto;
   height: 90%;
   border: 1px solid white;
+}
+
+.scroll {
+  text-align: center;
+  font-size: 10px;
+  margin-top: 10px;
+}
+
+@media screen and (max-width:750px) {
+  .project-detail-container::-webkit-scrollbar {
+    border: none !important;
+    background-color: #262626 !important;
+    border-radius: 20px !important;
+    width: 4px !important;
+  }
 }

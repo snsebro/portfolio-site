@@ -11,12 +11,12 @@ export default function ProjectSpecs(props) {
       <div className="spec-section">
         <h1>MVP:</h1>
         {props.project.MVP.map(MVP =>
-          <p>{MVP}</p>)}
+          <p>-{MVP}</p>)}
       </div>
       <div className="spec-section">
         <h1>In Progress:</h1>
         {props.project.in_progress.map(pmvp =>
-          <p>{pmvp}</p>)}
+          <p>-{pmvp}</p>)}
       </div>
     </div>
   );

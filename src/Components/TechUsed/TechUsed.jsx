@@ -12,6 +12,9 @@ export default function TechUsed(props) {
     <>
       {/* {props.project && props.project.stack.map(tech => <div className="tech"><ReactIcon className="react-icon"/></div>)}
       <h1 className="shayne-h1">Shayne Sebro Software Engineer</h1> */}
+      {/* if(!props.project) {
+        <div></div>
+      } */}
 
       {props.project.name === "Prep Chef" ? (
         <>

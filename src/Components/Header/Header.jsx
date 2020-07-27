@@ -6,7 +6,7 @@ export default function Header() {
   return (
     <div className="nav">
       <div className="logo">
-        <p>logo</p>
+        <p></p>
       </div>
 
       <div className="nav-links">

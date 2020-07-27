@@ -9,7 +9,7 @@ export default class ProjectList extends Component {
         {this.props.projects.map((project, index) => (
           
             <Link to={`/projects/${project.name}`}>
-            <img onClick={() => { this.props.setProject(project.name) }} src={project.screenshot} />
+            <img alt="project screenshot" onClick={() => { this.props.setProject(project.name) }} src={project.screenshot} />
             </Link>
          
         ))}

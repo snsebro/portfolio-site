@@ -1,8 +1,6 @@
 .aeternam-1 {
   width: 90%;
   margin: 20px auto 0px auto;
-  /* height: 90%; */
-  border: 1px solid white;
   display: grid;
   grid-template-rows: 0.2fr 1fr 0.3fr;
   grid-template-columns: 2fr 1fr;
@@ -15,14 +13,12 @@
 
 .aeternam-text {
   grid-area: text;
-  border: 1px solid white;
   margin: 0px;
   color: white;
 }
 
 .ERD {
   grid-area: erd;
-  border: 1px solid white;
   /* background-image: url("https://i.ibb.co/7bbR7xh/Screen-Shot-2020-07-25-at-8-09-29-PM.png"); */
   background-size: contain;
   background-position: center;
@@ -47,7 +43,6 @@ height: auto;
 
 .postico {
   grid-area: postico;
-  border: 1px solid white;
   /* background-image: url("https://i.ibb.co/Ht1ptbx/Screen-Shot-2020-07-25-at-8-43-10-PM.png"); */
   background-size: contain;
   background-position: center;
@@ -56,7 +51,6 @@ height: auto;
 
 .heroku {
   grid-area: heroku;
-  border: 1px solid white;
   /* background-image: url("https://i.ibb.co/QNvbY6W/Screen-Shot-2020-07-25-at-8-47-12-PM.pnghttps://i.ibb.co/QNvbY6W/Screen-Shot-2020-07-25-at-8-47-12-PM.png"); */
   background-size: contain;
   background-position: center;
@@ -67,7 +61,6 @@ height: auto;
   width: 90%;
   margin: 30px auto;
   /* height: 90%; */
-  border: 1px solid white;
   display: grid;
   grid-template-columns: 1.5fr 1fr;
   grid-template-rows: 0.7fr 0.5fr 0.5fr;
@@ -81,7 +74,6 @@ height: auto;
 
 .auth {
   grid-area: auth;
-  border: 1px solid white;
  
 }
 
@@ -91,7 +83,6 @@ height: auto;
 
 .auth-text {
   grid-area: auth-text;
-  border: 1px solid white;
   margin: 0px;
   color: white;
   padding: 10px;
@@ -99,7 +90,6 @@ height: auto;
 
 .reviews {
   grid-area: reviews;
-  border: 1px solid white;
 }
 
 .reviews img {
@@ -108,7 +98,6 @@ height: auto;
 
 .edit {
   grid-area: edit;
-  border: 1px solid white;
 }
 
 .edit img {
@@ -117,9 +106,37 @@ height: auto;
 
 .add {
   grid-area: add;
-  border: 1px solid white;
 }
 
 .add img {
   width: 100%;
+}
+
+@media screen and (max-width: 750px) {
+  .aeternam-text {
+    font-size: 8px;
+  }
+
+  .auth-text{
+    font-size: 8px;
+  }
+
+  .aeternam-1 {
+    grid-row-gap: 10px;
+    margin: 10px auto 0px auto;
+  }
+
+  .aeternam-2 {
+    width: 90%;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.2fr 0.5fr 0.5fr 0.5fr 0.5fr;
+    grid-template-areas: 
+    "auth-text"
+    "auth"
+    "reviews" 
+    "edit"
+    "add";
+    grid-row-gap: 10px;
+    margin: 10px auto;
+  }
 }

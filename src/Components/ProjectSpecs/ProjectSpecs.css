@@ -20,3 +20,14 @@
 .spec-section {
   margin: 20px 0;
 }
+
+@media screen and (max-width:750px) {
+  .project-specs h1 {
+    font-size: 10px;
+  }
+
+  .spec-section {
+    font-size: 8px;
+    margin-bottom: 0px;
+  }
+}

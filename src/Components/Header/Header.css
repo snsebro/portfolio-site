@@ -34,10 +34,21 @@ a {
 
 @media screen and (max-width: 950px) {
   .nav {
-    padding: 0px;
+    padding: 0px 10px;
+  }
+
+  .nav-links {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
   }
 
   li {
     margin: 0px 10px;
+  }
+
+  ul {
+    padding: 0px;
   }
 }
