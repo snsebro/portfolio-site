@@ -6,10 +6,7 @@ export default function AeternamDetails() {
     <>
       <div className="aeternam-1">
         <p className="aeternam-text">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste eaque
-          rem, accusamus sint molestias temporibus illum, esse aliquid
-          cupiditate laudantium dolor et dolorem deserunt asperiores, veniam
-          sapiente a quod error?
+          With well planned ERDs and wireframing, Aeternam Beauty utilizes React Hooks to stylishly render products and reviews stored in a postgresql databsed hosted on heroku
         </p>
         <div className="ERD">
           <img
@@ -30,11 +27,7 @@ export default function AeternamDetails() {
       <hr></hr>
       <div className="aeternam-2">
         <p className="auth-text">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
-          mollitia vel quam debitis corporis. Adipisci nam, nesciunt est cum
-          modi quasi rem magnam? Suscipit quis itaque animi delectus illum
-          corporis.
-        </p>
+        Using JSON web tokens for authentication, admin users are given full CRUD functionality to control and update the sites inventory, while customers are able to view products and contribute reviews</p>
         <div className="auth">
           <img
             src={

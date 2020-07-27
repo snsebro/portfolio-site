@@ -45,6 +45,8 @@
 
 .prep-chef-text p {
   margin: 0;
+  color: white;
+  line-height: 18px;
 }
 
 .search {

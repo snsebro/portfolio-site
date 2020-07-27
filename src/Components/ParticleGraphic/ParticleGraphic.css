@@ -7,3 +7,19 @@
   z-index: 2;
   top: -400px;
 }
+
+@media screen and (max-width: 950px) {
+  .graphic {
+    margin-top: 220px;
+    height: 100%;
+  }
+
+  .ts-particles-canvas-el {
+    width: 30%;
+  }
+
+  #tsparticles {
+    width: 50%;
+    margin: 0 auto;
+  }
+}

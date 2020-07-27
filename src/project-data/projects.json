@@ -6,7 +6,10 @@
     "deployed_on": "Netlify",
     "deployed_link": "https://prepchef.netlify.app/",
     "backend": "",
-    "github": "https://github.com/snsebro/prepnchef"
+    "github": "https://github.com/snsebro/prepnchef",
+    "overview": "Prep Chef is a meal prep app designed to help users plan out accessable diet concious options",
+    "in_progress": ["User auth.", "React Hooks refactor", "Recipe equipment API endpoint"],
+    "MVP": ["Successful API calls using user inputs", "React client side rendering"]
   },
 
   {
@@ -16,7 +19,10 @@
     "deployed_on": "Surge",
     "deployed_link": "http://aeternam.surge.sh/",
     "backend": "Heroku",
-    "github": "https://github.com/snsebro/Aeternam-Beauty"
+    "github": "https://github.com/snsebro/Aeternam-Beauty",
+    "overview": "Aeternam Beauty is a fullstack ecommerce platform",
+    "in_progress": ["Payment verification with Stripe", "Youtube API integration"],
+    "MVP": ["Full CRUD functionality", "User auth", "Backend API deployment", "React client side"]
 
   }
 ]

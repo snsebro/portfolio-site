@@ -31,3 +31,13 @@ a {
   text-decoration: none !important;
   color: inherit;
 }
+
+@media screen and (max-width: 950px) {
+  .nav {
+    padding: 0px;
+  }
+
+  li {
+    margin: 0px 10px;
+  }
+}

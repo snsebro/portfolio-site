@@ -1,6 +1,9 @@
 import React from "react";
 import Header from "../../../Components/Header/Header";
 import ParticleGraphic from "../../../Components/ParticleGraphic/ParticleGraphic";
+import { ReactComponent as GithubIcon } from "../../../Assets/github-original.svg";
+import { ReactComponent as LinkedinIcon } from "../../../Assets/linkedin-original.svg";
+import { ReactComponent as ResumeIcon } from "../../../Assets/resume.svg";
 import "./About.css";
 
 export default function About() {
@@ -20,16 +23,33 @@ export default function About() {
           <div className="message">
             <h1>Welcome ...About Me</h1>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Suspendisse blandit sapien id orci lobortis, in aliquam dolor
-              varius. Morbi tempus dui est, sit amet luctus ipsum venenatis in.
-              Sed in erat eu nibh porta venenatis nec ac libero.
+              I’m a creative, collaborative, and thoughtful web developer with a
+              diverse range of experiences including financial planning, product
+              development, digital marketing, and retail management. My past
+              experiences have taught me to combine strong aesthetic vision with
+              the practical application of technology stacks to produce
+              applications that are scalable, efficient, and visually
+              stimulating. As a lifetime learner I look forward broadening my
+              skill sets with each project I take on and always remain open to
+              new challenges.
             </p>
-            <p>
-              Sed in erat eu nibh porta venenatis nec ac libero. Fusce vulputate
-              metus ac elit ultricies, non dictum libero vulputate.
-            </p>
-            <p>Sed in erat eu nibh porta venenatis nec ac libero.</p>
+            <div className="profile-icons">
+              <a href="https://github.com/snsebro" target="_blank">
+                <GithubIcon className="profile-icon" />
+              </a>
+              <a
+                href="https://www.linkedin.com/in/shaynesebro/"
+                target="_blank"
+              >
+                <LinkedinIcon className="profile-icon" />
+              </a>
+              <a
+                href="https://drive.google.com/file/d/1KPecR7iC6xQQQXaInQIQ7lyvAjDZ8kKx/view?usp=sharing"
+                target="_blank"
+              >
+                <ResumeIcon className="profile-icon" />
+              </a>
+            </div>
           </div>
         </div>
       </div>

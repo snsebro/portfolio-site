@@ -4,7 +4,7 @@
   /* height: 90%; */
   border: 1px solid white;
   display: grid;
-  grid-template-rows: 0.3fr 1fr 0.3fr;
+  grid-template-rows: 0.2fr 1fr 0.3fr;
   grid-template-columns: 2fr 1fr;
   grid-template-areas: 
   "text text"
@@ -75,11 +75,14 @@ height: auto;
   "auth auth-text"
   "reviews edit"
   "reviews add";
+  grid-row-gap: 20px;
+  grid-column-gap: 20px;
 }
 
 .auth {
   grid-area: auth;
   border: 1px solid white;
+ 
 }
 
 .auth img {
@@ -90,6 +93,8 @@ height: auto;
   grid-area: auth-text;
   border: 1px solid white;
   margin: 0px;
+  color: white;
+  padding: 10px;
 }
 
 .reviews {

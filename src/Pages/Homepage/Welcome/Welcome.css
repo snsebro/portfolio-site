@@ -1,5 +1,30 @@
-.message {
+/* .message {
   width: 40%;
   margin: 125px 50px 0px 50px;
   text-overflow: ellipsis;
-}
+} */
+
+/* @media screen and (max-width: 950px) {
+  .content {
+    flex-direction: column;
+  }
+
+  .constellation {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .circle {
+    margin: 0 auto;
+  }
+
+  .middle {
+    width: 100%;
+  }
+
+  .left {
+    writing-mode: unset;
+    text-transform: none;
+  }
+  
+} */
