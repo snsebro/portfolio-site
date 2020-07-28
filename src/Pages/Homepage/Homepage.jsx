@@ -21,18 +21,17 @@ export default class Homepage extends Component {
             <div className="message">
               <h1>Welcome</h1>
               <p>
-              I’m Shayne Sebro a creative, collaborative, and thoughtful software engineer with a
-              diverse range of experiences that have taught me to combine strong aesthetic vision with
-              the practical application of technology stacks to create
-              apps that are scalable, efficient, and visually
-              stimulating.
+                I’m Shayne Sebro a creative, collaborative, and thoughtful
+                software engineer with a diverse range of experiences that have
+                taught me to combine strong aesthetic vision with the practical
+                application of technology stacks to create apps that are
+                scalable, efficient, and visually stimulating.
               </p>
               <p>
-                As a lifetime learner I look forward broadening my
-                skill sets with each project I take on and always remain open to
-                new challenges.
+                As a lifetime learner I look forward broadening my skill sets
+                with each project I take on and always remain open to new
+                challenges.
               </p>
-              {/* <a href="/projects"><button className="profile-button">Projects</button></a> */}
             </div>
           </div>
         </div>

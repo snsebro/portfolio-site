@@ -29,7 +29,14 @@ export default function About() {
               frameworks in my own practice and enjoy taking on new projects
               that allow me to do so.
             </p>
-            <p>Feel free to visit the links below to learn more, or check out some of my projects <a href="/projects"><span className="here">here</span></a>!</p>
+            <p>
+              Feel free to visit the links below to learn more, or check out
+              some of my projects{" "}
+              <a href="/projects">
+                <span className="here">here</span>
+              </a>
+              !
+            </p>
             <div className="profile-icons">
               <a
                 href="https://github.com/snsebro"

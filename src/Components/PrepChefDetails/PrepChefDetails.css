@@ -4,9 +4,9 @@
   display: grid;
   grid-template-rows: 0.5fr 0.5fr;
   grid-template-columns: 2fr 1fr;
-  grid-template-areas: 
-  "search text"
-  "recipe-detail text";
+  grid-template-areas:
+    "search text"
+    "recipe-detail text";
   grid-row-gap: 10px;
 }
 
@@ -16,10 +16,10 @@
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 0.5fr 0.6fr 1.5fr;
-  grid-template-areas: 
-  "day-select"
-  "diet"
-  "summary";
+  grid-template-areas:
+    "day-select"
+    "diet"
+    "summary";
   grid-row-gap: 10px;
 }
 
@@ -67,17 +67,6 @@
 }
 
 @media screen and (max-width: 750px) {
-  /* .prep-chef-1 {
-    margin: 10px auto 0px auto;
-    grid-template-rows: 0.3fr 0.5fr 0.5fr;
-    grid-template-columns: 1fr;
-    grid-template-areas: 
-    "search"
-    "text"
-    "recipe-detail";
-    grid-row-gap: 5px;
-  } */
-
   .prep-chef-text p {
     font-size: 8px;
     line-height: 12px;
@@ -87,7 +76,7 @@
   .prep-chef-text {
     padding: 0px 10px;
   }
-  
+
   .prep-chef-2 {
     margin: 10px auto;
     grid-row-gap: 5px;
@@ -99,11 +88,10 @@
     margin: 10px auto 0px auto;
     grid-template-rows: 0.3fr 0.5fr 0.5fr;
     grid-template-columns: 1fr;
-    grid-template-areas: 
-    "search"
-    "text"
-    "recipe-detail";
+    grid-template-areas:
+      "search"
+      "text"
+      "recipe-detail";
     grid-row-gap: 5px;
   }
-
 }

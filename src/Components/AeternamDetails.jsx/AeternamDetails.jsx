@@ -6,7 +6,9 @@ export default function AeternamDetails() {
     <>
       <div className="aeternam-1">
         <p className="aeternam-text">
-          With well planned ERDs and wireframing, Aeternam Beauty utilizes React Hooks to stylishly render products and reviews stored in a postgresql databsed hosted on heroku
+          With well planned ERDs and wireframing, Aeternam Beauty utilizes React
+          Hooks to stylishly render products and reviews stored in a postgresql
+          databsed hosted on heroku
         </p>
         <div className="ERD">
           <img
@@ -24,11 +26,13 @@ export default function AeternamDetails() {
             }
           />
         </div>
-        {/* <div className="heroku"></div> */}
       </div>
       <div className="aeternam-2">
         <p className="auth-text">
-        Using JSON web tokens for authentication, admin users are given full CRUD functionality to control and update the sites inventory, while customers are able to view products and contribute reviews</p>
+          Using JSON web tokens for authentication, admin users are given full
+          CRUD functionality to control and update the sites inventory, while
+          customers are able to view products and contribute reviews
+        </p>
         <div className="auth">
           <img
             alt="auth"

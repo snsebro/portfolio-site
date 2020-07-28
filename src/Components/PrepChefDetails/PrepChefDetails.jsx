@@ -2,7 +2,6 @@ import React from "react";
 import "./PrepChefDetails.css";
 
 export default function PrepChefDetails() {
-  // {if(!props.project {})}
   return (
     <>
       <div className="prep-chef-1">
@@ -13,7 +12,7 @@ export default function PrepChefDetails() {
             users are able to search for meals by specifc keywords and generate
             meals according to diet restrictions.
           </p>
-          
+
           <p>
             As an added feature users are able to see nutrition information for
             all meals as well as step by step directions for each recipe.

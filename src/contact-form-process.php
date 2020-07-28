@@ -1,7 +1,6 @@
 <?php
 if (isset($_POST['Email'])) {
 
-    // EDIT THE 2 LINES BELOW AS REQUIRED
     $email_to = "shaynesebro@gmail.com";
     $email_subject = "New form submission";
 
@@ -66,8 +65,6 @@ if (isset($_POST['Email'])) {
         'X-Mailer: PHP/' . phpversion();
     @mail($email_to, $email_subject, $email_message, $headers);
 ?>
-
-    <!-- include your success message below -->
 
     Thank you for contacting us. We will be in touch with you very soon.
 

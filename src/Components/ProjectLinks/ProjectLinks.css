@@ -1,4 +1,4 @@
-.deploy-info{
+.deploy-info {
   font-size: 14px;
   display: flex;
   flex-direction: column;
@@ -8,12 +8,12 @@
   color: white;
 }
 
-.deploy-info h1{
+.deploy-info h1 {
   font-size: 14px;
   margin: 0;
 }
 
-.deploy-info p{
+.deploy-info p {
   margin: 0;
   overflow-wrap: normal;
 }
@@ -23,9 +23,9 @@
   overflow-wrap: normal;
 }
 
-@media screen and (max-width:750px) {
+@media screen and (max-width: 750px) {
   .link-section {
-   margin-bottom: 0px;
+    margin-bottom: 0px;
   }
 
   .link-section h1 {

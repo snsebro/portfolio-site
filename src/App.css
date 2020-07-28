@@ -1,14 +1,37 @@
 body {
   background-color: #171717;
-  font-family: 'Inconsolata', monospace;
+  font-family: "Inconsolata", monospace;
   font-weight: bold;
-  color: #B1B1B1;
+  color: #b1b1b1;
 }
 
 body {
-  background-image: linear-gradient(0deg, transparent 24%, rgba(255, 255, 255, .05) 25%, rgba(255, 255, 255, .05) 26%, transparent 27%, transparent 74%, rgba(255, 255, 255, .05) 75%, rgba(255, 255, 255, .05) 76%, transparent 77%, transparent), linear-gradient(90deg, transparent 24%, rgba(255, 255, 255, .05) 25%, rgba(255, 255, 255, .05) 26%, transparent 27%, transparent 74%, rgba(255, 255, 255, .05) 75%, rgba(255, 255, 255, .05) 76%, transparent 77%, transparent);
-height:100%;
-background-size:50px 50px;
+  background-image: linear-gradient(
+      0deg,
+      transparent 24%,
+      rgba(255, 255, 255, 0.05) 25%,
+      rgba(255, 255, 255, 0.05) 26%,
+      transparent 27%,
+      transparent 74%,
+      rgba(255, 255, 255, 0.05) 75%,
+      rgba(255, 255, 255, 0.05) 76%,
+      transparent 77%,
+      transparent
+    ),
+    linear-gradient(
+      90deg,
+      transparent 24%,
+      rgba(255, 255, 255, 0.05) 25%,
+      rgba(255, 255, 255, 0.05) 26%,
+      transparent 27%,
+      transparent 74%,
+      rgba(255, 255, 255, 0.05) 75%,
+      rgba(255, 255, 255, 0.05) 76%,
+      transparent 77%,
+      transparent
+    );
+  height: 100%;
+  background-size: 50px 50px;
 }
 
 .container {
@@ -19,7 +42,7 @@ background-size:50px 50px;
 
 .left {
   position: relative;
-  font-family: 'Roboto Slab', serif;
+  font-family: "Roboto Slab", serif;
   font-weight: 100;
   width: 10%;
   writing-mode: vertical-lr;
@@ -29,7 +52,7 @@ background-size:50px 50px;
   display: flex;
 }
 
-.left h1{
+.left h1 {
   margin-left: 40px;
   font-size: 30px;
   text-align: center;
@@ -37,34 +60,29 @@ background-size:50px 50px;
 }
 
 .middle {
-  font-family: 'Inconsolata', monospace;
+  font-family: "Inconsolata", monospace;
   display: flex;
   flex-direction: column;
-  /* border: 1px solid white; */
   width: 80%;
   height: 100%;
   background-color: #262626;
-
 }
 
 .right {
-  /* border: 1px solid white; */
   width: 10%;
   height: 100%;
 }
 
-
 .circle {
   height: 350px;
-  width:  350px;
+  width: 350px;
   background-color: black;
   border-radius: 50%;
   display: inline-block;
-  margin: 125px auto ;
+  margin: 125px auto;
 }
 
 .constellation {
-  /* border: 1px solid white; */
   width: 60%;
   height: 100%;
   justify-content: center;
@@ -103,16 +121,17 @@ background-size:50px 50px;
   width: 90%;
 }
 
-.form input, textarea {
+.form input,
+textarea {
   width: 100%;
   line-height: 30px;
   margin: 10px 0;
   border-radius: 8px;
   outline: none;
-  border: 2px solid #DBDBDB;
-  color: #DBDBDB;
+  border: 2px solid #dbdbdb;
+  color: #dbdbdb;
   background-color: #575757;
-  font-family: 'Inconsolata', monospace;
+  font-family: "Inconsolata", monospace;
   padding-left: 10px;
 }
 
@@ -129,7 +148,7 @@ textarea {
   border: none;
   color: white;
   background-color: black;
-  font-family: 'Inconsolata', monospace;
+  font-family: "Inconsolata", monospace;
   margin: 15px 0px;
   font-weight: 500;
 }
@@ -139,10 +158,10 @@ textarea {
   padding: 0px 25px;
   outline: none;
   border-radius: 10px;
-  border: 2px solid #DBDBDB;
+  border: 2px solid #dbdbdb;
   color: white;
   background-color: #111111;
-  font-family: 'Inconsolata', monospace;
+  font-family: "Inconsolata", monospace;
   margin: 15px 0px;
   font-weight: 500;
   width: 50%;
@@ -198,16 +217,16 @@ textarea {
   .left {
     writing-mode: unset;
     -webkit-transform: rotate(0deg);
-        -moz-transform: rotate(0deg);
-        -o-transform: rotate(0deg);
-        -ms-transform: rotate(0deg);
-        transform: rotate(0deg);
-        width: 100%;
-        margin: 10px auto ;
-        height: 50px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+    width: 100%;
+    margin: 10px auto;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .left h1 {
@@ -216,9 +235,6 @@ textarea {
     font-size: 20px;
   }
 
-  /* .graphic {
-    margin-top: 175px;
-  } */
   .ts-particles-canvas-el {
     width: 30%;
   }
@@ -240,4 +256,3 @@ textarea {
     margin-left: 2px;
   }
 }
-

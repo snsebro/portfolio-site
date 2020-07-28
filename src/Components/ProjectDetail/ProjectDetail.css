@@ -4,7 +4,6 @@
   margin: 0 auto;
   overflow-x: hidden;
   overflow-y: scroll;
-
 }
 
 .project-detail-container::-webkit-scrollbar {
@@ -16,7 +15,7 @@
 
 .project-detail-container::-webkit-scrollbar-thumb {
   border: none !important;
-  background-color:#121212 !important;
+  background-color: #121212 !important;
   border-radius: 20px !important;
   margin-right: 10px !important;
 }
@@ -48,7 +47,7 @@
   margin-top: 10px;
 }
 
-@media screen and (max-width:750px) {
+@media screen and (max-width: 750px) {
   .project-detail-container::-webkit-scrollbar {
     border: none !important;
     background-color: #262626 !important;

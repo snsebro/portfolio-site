@@ -19,9 +19,13 @@ export default function Contact() {
           </div>
           <div className="message">
             <h1>Contact Me</h1>
-            <form className="form" method="post" action="contact-form-process.php">
+            <form
+              className="form"
+              method="post"
+              action="contact-form-process.php"
+            >
               <label>
-                <input type="text" placeholder="Name" required/>
+                <input type="text" placeholder="Name" required />
               </label>
               <label>
                 <input type="text" placeholder="Email" required></input>
@@ -29,9 +33,13 @@ export default function Contact() {
               <label>
                 <textarea placeholder="Message Me" required></textarea>
               </label>
-              <button className="contact-button" type="submit">Send Message</button>
+              <button className="contact-button" type="submit">
+                Send Message
+              </button>
             </form>
-            <p className="email">*Alternatively email me at shaynesebro@gmail.com</p>
+            <p className="email">
+              *Alternatively email me at shaynesebro@gmail.com
+            </p>
           </div>
         </div>
       </div>
