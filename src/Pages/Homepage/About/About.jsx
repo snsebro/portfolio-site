@@ -53,7 +53,7 @@ export default function About() {
                 <LinkedinIcon className="profile-icon" />
               </a>
               <a
-                href="https://drive.google.com/file/d/1KPecR7iC6xQQQXaInQIQ7lyvAjDZ8kKx/view?usp=sharing"
+                href="https://drive.google.com/file/d/1FGc0C0jJnQci26yM0QBUXo-LNzz6uC7Z/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
               >
