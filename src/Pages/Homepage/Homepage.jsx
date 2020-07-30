@@ -28,7 +28,7 @@ export default class Homepage extends Component {
                 scalable, efficient, and visually stimulating.
               </p>
               <p>
-                As a lifetime learner I look forward broadening my skill sets
+                As a lifetime learner I look forward to broadening my skill sets
                 with each project I take on and always remain open to new
                 challenges.
               </p>
