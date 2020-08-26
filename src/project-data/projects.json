@@ -1,5 +1,17 @@
 [
   {
+    "name": "Aeternam Clothing",
+    "stack": ["HTML", "Javascript", "CSS","React", "Redux", "Firebase"],
+    "screenshot": "https://i.ibb.co/m0sYmtM/Screen-Shot-2020-08-25-at-2-16-24-PM.png",
+    "deployed_on": "Surge",
+    "deployed_link": "http://aeternam-clothing.surge.sh/",
+    "backend": "",
+    "github": "https://github.com/snsebro/e-commerce-app",
+    "overview": "Aeternam is a ecommerce site",
+    "in_progress": ["Product Detail View", "Firestore", "Mobile Responsive"],
+    "MVP": ["Aesthic design with modern ecommerce functionality", "React client side rendering with Redux for state management"]
+  },
+  {
     "name": "Prep Chef",
     "stack": ["HTML", "Javascript", "CSS","React", "Axios"],
     "screenshot": "https://i.ibb.co/QCm54pG/Screen-Shot-2020-07-24-at-11-01-01-AM.png",
@@ -11,7 +23,6 @@
     "in_progress": ["User auth.", "React Hooks refactor", "Recipe equipment API endpoint"],
     "MVP": ["Successful API calls using user inputs", "React client side rendering"]
   },
-
   {
     "name": "Aeternam Beauty",
     "stack": ["HTML", "Javascript", "CSS", "React", "Ruby", "Axios"],

@@ -1,8 +1,11 @@
 import React from "react";
-import "./ProjectDetail.css";
-import AeternamDetails from "../AeternamDetails.jsx/AeternamDetails";
 import { withRouter, Route } from "react-router-dom";
+
+import AeternamDetails from "../AeternamDetails.jsx/AeternamDetails";
 import PrepChefDetails from "../PrepChefDetails/PrepChefDetails";
+import AeternamClothingDetails from "../AeternamClothingDetails/AeternamClothingDetails";
+
+import "./ProjectDetail.css";
 
 function ProjectDetail() {
   return (
@@ -13,6 +16,9 @@ function ProjectDetail() {
         </Route>
         <Route path="/projects/Prep Chef">
           <PrepChefDetails />
+        </Route>
+        <Route path="/projects/Aeternam Clothing">
+          <AeternamClothingDetails />
         </Route>
       </div>
       <div className="scroll">Scroll for more info</div>

@@ -18,13 +18,25 @@ class ProjectPage extends Component {
     project: null,
   };
 
+  componentDidMount = () => {
+      const localProject = JSON.parse(localStorage.getItem('project'))
+      this.setState({ project: localProject })
+      console.log(localProject)
+  }
+    
   setProject = (name) => {
+    if (localStorage.getItem('project')) {
+      var localProject = JSON.parse(localStorage.getItem('project'));
+      this.setState({ project: localProject})
+    }
     const project = projects.find((project) => project.name === name);
-    this.setState({ project });
+    this.setState({ project }, localStorage.setItem('project', JSON.stringify(project)));
+    // localStorage.setItem('project', this.state.project)
   };
 
   render() {
-    const { project } = this.state;
+    const localProject = JSON.parse(localStorage.getItem('project'))
+    const project  = this.state.project ? this.state.project : localProject
 
     return (
       <>

@@ -1,0 +1,127 @@
+.aeternam-clothing-1 {
+  width: 90%;
+  margin: 20px auto 0px auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.aeternam-clothing-text {
+  grid-area: text;
+  margin: 0px;
+  color: white;
+  margin: 20px auto;
+  line-height: 18px;
+}
+
+.sneakers-shop {
+  grid-area: shop;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 20px auto;
+}
+
+.sneakers-shop img {
+  width: 100%;
+  height: auto;
+}
+
+.firebase img {
+  width: 100%;
+  height: auto;
+}
+
+.heroku img {
+  width: 100%;
+  height: 50%;
+}
+
+.firebase {
+  grid-area: postico;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.heroku {
+  grid-area: heroku;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.aeternam-2 {
+  width: 90%;
+  margin: 20px auto 0px auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.login {
+  grid-area: login;
+  margin: 20px auto;
+  text-align: center;
+  
+}
+
+.login img {
+  width: 90%;
+}
+
+.login-text {
+  grid-area: auth-text;
+  margin: 0px auto;
+  color: white;
+  padding: 10px;
+  width: 90%;
+  margin: 20px auto;
+  line-height: 18px;
+}
+
+.checkout {
+  grid-area: checkout;
+  text-align: center;
+  margin: 20px auto;
+}
+
+.checkout img {
+  width: 90%;
+}
+
+.payment {
+  grid-area: payment;
+  text-align: center;
+  margin: 20px auto;
+}
+
+.payment img {
+  width: 90%;
+}
+
+@media screen and (max-width: 750px) {
+  .aeternam-text {
+    font-size: 8px;
+  }
+
+  .login-text {
+    font-size: 8px;
+  }
+
+  .aeternam-clothing-1 {
+    grid-row-gap: 10px;
+    margin: 10px auto 0px auto;
+  }
+
+  .aeternam-clothing-2 {
+    width: 90%;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.2fr 0.5fr 0.5fr 0.5fr;
+    grid-template-areas:
+    "auth-text"
+    "login"
+    "checkout"
+    "payment";
+    grid-row-gap: 10px;
+    margin: 10px auto;
+  }
+}

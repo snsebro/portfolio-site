@@ -50,6 +50,16 @@
   height: auto;
 }
 
+.redux-icon {
+  width: 40px;
+  height: auto;
+}
+
+.firebase-icon {
+  width: 45px;
+  height: auto;
+}
+
 @media screen and (max-width: 950px) {
   .tech {
     width: 30px;
@@ -58,6 +68,16 @@
   }
 
   .react-icon {
+    width: 20px;
+    height: auto;
+  }
+
+  .firebase-icon {
+    width: 20px;
+    height: auto;
+  }
+
+  .redux-icon {
     width: 20px;
     height: auto;
   }
