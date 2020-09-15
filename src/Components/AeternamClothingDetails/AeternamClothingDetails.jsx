@@ -6,7 +6,7 @@ export default function AeternamClothingDetails() {
     <>
       <div className="aeternam-clothing-1">
         <p className="aeternam-clothing-text">
-          Aeternam Clothing is an ecommerce site employing React to render various shop and prodcut components with dynamic functionality while efficently managing state with Redux to ensure consistent rendering between component updates
+          Aeternam Clothing is an ecommerce site employing React to render various shop and product components with dynamic functionality while efficiently managing state with Redux to ensure consistent rendering between component updates.
         </p>
         <div className="sneakers-shop">
           <img
@@ -28,8 +28,7 @@ export default function AeternamClothingDetails() {
       <div className="aeternam-clothing-2">
         <p className="login-text">
           Using Google firebase for authentication, users are able to create and login into accounts with personal email addresses or linked google accounts.
-           
-          Additionally items can be added to a session persistent cart, and proceed to checkout. Payment processing is handled through implicaiton of the Stripe library.
+          Additionally items can be added to a session persistent cart, to be viewed via dropdown or by proceeding to the checkout page. Payment processing is handled through Stripe integration.
         </p>
         <div className="login">
           <img
